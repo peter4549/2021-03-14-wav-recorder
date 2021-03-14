@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="grey_900">#212121</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_500">#f44336</color>
+    <color name="orange_500">#ff9800</color>
+    <color name="green_a400">#00e676</color>
+    <color name="green_a400_alpha">#8000e676</color>
+
+    <color name="error">@color/red_500</color>
+
+    <color name="record">@color/red_500</color>
+
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_500_dark">#707070</color>
+    <color name="grey_800_dark">#1b1b1b</color>
+    <color name="silver">#C0C0C0</color>
+
+    <!-- WaveformView -->
+    <color name="waveform_view_background">@color/grey_900</color>
+    <color name="default_chunk">@color/white</color>
+    <color name="default_grid">@color/white</color>
+    <color name="default_overwritten_chunk">@color/orange_500</color>
+    <color name="default_scrubber">@color/red_500</color>
+    <color name="default_sub_grid">@color/grey_200</color>
+    <color name="default_timestamp_background">@color/layout_background</color>
+    <color name="default_timestamp_text">@color/white</color>
+    <color name="section_divider">@color/green_a400</color>
+    <color name="section_background">@color/green_a400_alpha</color>
+
+    <color name="layout_background">@color/white</color>
+
+    <!-- Icon -->
+    <color name="icon_enabled">@color/grey_500_dark</color>
+    <color name="icon_disabled">@color/silver</color>
+
+    <!-- Text -->
+    <color name="text_enabled">@color/black</color>
+    <color name="text_disabled">@color/silver</color>
+    <color name="hint_text">@color/silver</color>
+
+    <color name="box_background">@color/layout_background</color>
+    <color name="box_stroke">@color/layout_background</color>
+</resources>

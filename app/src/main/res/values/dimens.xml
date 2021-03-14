@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_medium_large">24dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_extra_large">64dp</dimen>
+
+    <declare-styleable name="WaveformView">
+        <attr name="chunkColor" format="color" />
+        <attr name="chunkRoundedCorners" format="boolean" />
+        <attr name="chunkSpacing" format="dimension" />
+        <attr name="chunkWidth" format="dimension" />
+        <attr name="minChunkHeight" format="dimension" />
+        <attr name="maxChunkHeight" format="dimension" />
+        <attr name="smoothTransition" format="boolean" />
+
+        <attr name="scrubberColor" format="color" />
+        <attr name="scrubberWidth" format="dimension" />
+
+        <attr name="timestampBackgroundColor" format="color" />
+        <attr name="timestampTextColor" format="color" />
+        <attr name="timestampTextSize" format="dimension" />
+
+        <attr name="gridColor" format="color" />
+        <attr name="gridVisibility" format="boolean" />
+        <attr name="gridWidth" format="dimension" />
+
+        <attr name="subGridColor" format="color" />
+        <attr name="subGridCount" format="integer" />
+        <attr name="subGridVisibility" format="boolean" />
+        <attr name="subGridWidth" format="dimension" />
+
+        <attr name="overwrittenChunkColor" format="color" />
+    </declare-styleable>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_medium_large">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_extra_large">18sp</dimen>
+</resources>
